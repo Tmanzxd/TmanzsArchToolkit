@@ -50,7 +50,7 @@ sudo pacman -Sy vlc-plugin-ffmpeg vlc-plugin-mpeg2 vlc-plugin-x264 vlc-plugin-as
 sudo pacman -Sy libreoffice-still
 sudo pacman -Sy gimp
 sudo pacman -Sy thunderbird
-#echo "<installs_script> Make sure multilib is uncommented under /etc/pacman.conf !!!"
+echo "<corepkgs_script> Make sure multilib is uncommented under /etc/pacman.conf for steam to work!!!"
 sudo pacman -Sy steam 
 sudo pacman -Sy audacity
 sudo pacman -Sy obs-studio
@@ -60,4 +60,4 @@ sudo yay -Sy freetube-bin #Ad-Free YouTube
 sudo pacman -Sy lutris #GOG.com 3rd-party client.
 sudo yay -Sy davinci-resolve-free
 
-echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name}"
+echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name} in the Terminal."
