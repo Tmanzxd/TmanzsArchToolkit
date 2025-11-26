@@ -4,7 +4,7 @@
 current_user=$(whoami)
 
 #For the folks doing a barebones ArchLinux install.
-if ["$current_user" == "root"]; then
+if [["$current_user" == "root"]]; then
 	echo "<root_script> We are root!"
 	pacman -Sy sudo #Install sudo
 	
@@ -16,18 +16,18 @@ if ["$current_user" == "root"]; then
 	input3="O"
 
 	#This is scuffed but it works.
-	while ["$input1" != "y" || "$input1" != "Y" || "$input1" != "n" || "$input1" != "N"]; do
+	while [["$input1" != *"y"* || "$input1" != *"Y"* || "$input1" != *"n"* || "$input1" != *"N"*]]; do
 		read input1
-		if["$input1" != "y" || "$input1" != "Y" || "$input1" != "n" || "$input1" != "N"]; then
+		if[["$input1" != *"y"* || "$input1" != *"Y"* || "$input1" != *"n"* || "$input1" != *"N"*]]; then
 			echo "<root_script> Invalid Input. Try Again."
 
 	case "$input1" in
 		"y" | "Y")
 			echo "<root_script> Which Text Editor? (vim/neovim/emacs/nano)"
 			
-			while ["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano" || "$input2" != "neovim"]; do
+			while [["$input2" != *"vim"* || "$input2" != *"emacs"* || "$input2" != *"nano"* || "$input2" != *"neovim"*]]; do
 				read input2
-				if["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano" || $"input2" != "neovim"]; then
+				if[["$input2" != *"vim"* || "$input2" != *"emacs"* || "$input2" != *"nano"* || $"input2" != *"neovim"*]]; then
 					echo "<root_script> Invalid Input. Try Again."
 
 			case "$input2" in

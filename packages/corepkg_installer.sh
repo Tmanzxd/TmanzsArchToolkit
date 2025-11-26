@@ -17,8 +17,7 @@ sudo pacman -Sy gcc #install C++ Compiler
 sudo pacman -Sy openssh
 
 #Download the yay aur
-cd .
-git clone https://aur.archlinux.org/yay-git.git
+git clone "https://aur.archlinux.org/yay-git.git" "~/"
 cd yay-git
 makepkg -si
 cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
