@@ -33,8 +33,8 @@ echo "<corepkgs_script> Downloading Apps..."
 sudo pacman -Sy clamav
 sudo pacman -Sy clamtk
 sudo pacman -Sy rkhunter
-sudo pacman -Sy diskmonitor
 #PC Utilities
+sudo pacman -Sy diskmonitor
 sudo yay -Sy corestats
 sudo yay -Sy coretime
 sudo yay -Sy arttime-git
