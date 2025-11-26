@@ -8,10 +8,10 @@ sudo systemctl enable startup.service
 sudo systemctl enable shutdown.service
 
 # Start Services.
-sudo systemctl start startup_script.service
+sudo systemctl start startup.service
 
 # Verify Services
-systemctl status startup_script.service
-systemctl status shutdown_script.service
+systemctl status startup.service
+systemctl status shutdown.service
 
 echo "Should there be any issues make an issue on the github repo! - Tmanz"
