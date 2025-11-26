@@ -1,2 +1,2 @@
 # TmanzsArchToolkit
-Basic Directory with Bash Scripts to help in app setup of ArchLinux
+Directory with Basic Bash Scripts to help in app setup of ArchLinux
