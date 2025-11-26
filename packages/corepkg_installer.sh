@@ -27,7 +27,7 @@ mv ~/TmanzsArchToolkit/yay-git ~
 echo "<corepkgs_script> Downloading Web Browsers..."
 
 sudo pacman -Sy firefox
-sudo yay -Sy brave-bin
+sudo yay -S brave-bin
 
 echo "<corepkgs_script> Downloading Apps..."
 #Antivirus Utilities
@@ -36,9 +36,9 @@ sudo pacman -Sy clamtk
 sudo pacman -Sy rkhunter
 #PC Utilities
 sudo pacman -Sy diskmonitor
-yay -Syu corestats
-yay -Syu coretime
-yay -Syu arttime-git
+yay -S corestats
+yay -S coretime
+yay -S arttime-git
 sudo pacman -Sy feh
 sudo pacman -Sy vlc
 sudo pacman -Sy balena-etcher
@@ -56,8 +56,8 @@ sudo pacman -Sy audacity
 sudo pacman -Sy obs-studio
 sudo pacman -Sy filezilla
 sudo pacman -Sy discord
-yay -Sy freetube-bin #Ad-Free YouTube
+yay -S freetube-bin #Ad-Free YouTube
 sudo pacman -Sy lutris #GOG.com 3rd-party client.
-yay -Sy davinci-resolve-free
+yay -S davinci-resolve-free
 
 echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name} in the Terminal."
