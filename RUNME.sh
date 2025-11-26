@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Install Packages
-./packages/root_script.sh
+# DEPRECATED, Read bash script on how to setup sudo and account 
+# ./packages/root_script.sh
 ./packages/corepkg_installer.sh
-#./packages/codingpkg_installer.sh
+# ./packages/codingpkg_installer.sh
 
 # Move Services
 ./services_scripts/services_setup_script.sh
+

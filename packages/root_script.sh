@@ -1,4 +1,5 @@
 #!/bin/bash
+#DEPRECATED, IF STATEMENTS DO NOT FUNCTION PROPERLY, WILL KEEP FOR HOW TO SETUP sudo
 
 #Startup vars
 current_user=$(whoami)
