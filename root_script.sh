@@ -23,11 +23,11 @@ if ["$current_user" == "root"]; then
 
 	case "$input1" in
 		"y" | "Y")
-			echo "<root_script> Which Text Editor? (vim,emacs,nano)"
+			echo "<root_script> Which Text Editor? (vim/neovim/emacs/nano)"
 			
-			while ["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano"]; do
+			while ["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano" || "$input2" != "neovim"]; do
 				read input2
-				if["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano"]; then
+				if["$input2" != "vim" || "$input2" != "emacs" || "$input2" != "nano" || $"input2" != "neovim"]; then
 					echo "<root_script> Invalid Input. Try Again."
 
 			case "$input2" in
@@ -35,6 +35,9 @@ if ["$current_user" == "root"]; then
 					pacman -Sy vim
 					EDITOR=vim visudo
 					;;
+				"neovim")
+					pacman -Sy neovim
+					EDITOR=neovim visudo
 				"emacs")
 					pacman -Sy emacs
 					EDITOR=emacs visudo
@@ -43,6 +46,7 @@ if ["$current_user" == "root"]; then
 					pacman -Sy nano
 					EDITOR=nano visudo
 					;;
+
 				*) #Default case for any other val
 					echo "<root_script> Invalid Input. Exiting..."
 					exit
