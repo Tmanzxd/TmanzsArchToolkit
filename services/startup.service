@@ -1,0 +1,10 @@
+[Unit]
+Description=Tmanz custom startup script
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/startup_script.sh
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
