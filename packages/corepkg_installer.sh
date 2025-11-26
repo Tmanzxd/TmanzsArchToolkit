@@ -50,7 +50,6 @@ sudo pacman -Sy vlc-plugin-ffmpeg vlc-plugin-mpeg2 vlc-plugin-x264 vlc-plugin-as
 sudo pacman -Sy libreoffice-still
 sudo pacman -Sy gimp
 sudo pacman -Sy thunderbird
-echo "<corepkgs_script> Make sure multilib is uncommented under /etc/pacman.conf for steam to work!!!"
 sudo pacman -Sy steam 
 sudo pacman -Sy audacity
 sudo pacman -Sy obs-studio
