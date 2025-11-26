@@ -1,6 +1,8 @@
 # TmanzsArchToolkit
 Basic Directory with Bash Scripts to help in app setup of ArchLinux
 
+This is setup to my liking but also tries to provide choice to those on Arch-based distros.
+
 # Important!!!
 For Steam to work you need to enable multilib. to do this navigate to /etc/pacman.conf and uncomment it.
 
