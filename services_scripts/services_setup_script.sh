@@ -1,7 +1,7 @@
 #!/bin/bash
 # Move services to respective directory.
-mv services/startup_script.service /etc/systemd/system/
-mv services/shutdown_script.service /etc/systemd/system/
+mv services/startup.service /etc/systemd/system/
+mv services/shutdown.service /etc/systemd/system/
 
 # Make services run on boot & shutdown.
 sudo systemctl enable startup.service
