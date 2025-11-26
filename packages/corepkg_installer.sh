@@ -15,12 +15,14 @@ echo "<corepkgs_script> Downloading Code Management/Compiler Packages... [RECOMM
 sudo pacman -Sy git 
 sudo pacman -Sy gcc #install C++ Compiler
 sudo pacman -Sy openssh
+sudo pacman -Sy base-devel
 
 #Download the yay aur
-git clone "https://aur.archlinux.org/yay-git.git" "~"
+git clone "https://aur.archlinux.org/yay-git.git"
 cd yay-git
 makepkg -si
 cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
+mv ~/TmanzsArchToolkit/yay-git ~
 
 echo "<corepkgs_script> Downloading Web Browsers..."
 
