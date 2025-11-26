@@ -4,8 +4,8 @@ mv services/startup_script.service /etc/systemd/system/
 mv services/shutdown_script.service /etc/systemd/system/
 
 # Make services run on boot & shutdown.
-sudo systemctl enable startup_script.service
-sudo systemctl enable shutdown_script.service
+sudo systemctl enable startup.service
+sudo systemctl enable shutdown.service
 
 # Start Services.
 sudo systemctl start startup_script.service
