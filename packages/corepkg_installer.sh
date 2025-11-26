@@ -36,9 +36,9 @@ sudo pacman -Sy clamtk
 sudo pacman -Sy rkhunter
 #PC Utilities
 sudo pacman -Sy diskmonitor
-sudo yay -Sy corestats
-sudo yay -Sy coretime
-sudo yay -Sy arttime-git
+yay -Syu corestats
+yay -Syu coretime
+yay -Syu arttime-git
 sudo pacman -Sy feh
 sudo pacman -Sy vlc
 sudo pacman -Sy balena-etcher
@@ -56,8 +56,8 @@ sudo pacman -Sy audacity
 sudo pacman -Sy obs-studio
 sudo pacman -Sy filezilla
 sudo pacman -Sy discord
-sudo yay -Sy freetube-bin #Ad-Free YouTube
+yay -Sy freetube-bin #Ad-Free YouTube
 sudo pacman -Sy lutris #GOG.com 3rd-party client.
-sudo yay -Sy davinci-resolve-free
+yay -Sy davinci-resolve-free
 
 echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name} in the Terminal."
