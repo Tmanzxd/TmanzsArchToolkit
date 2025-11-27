@@ -20,9 +20,9 @@ run TmanzArchToolkit/packages/codingpkg_installer.sh
 packages listed below.
 
 # Installed Packages!
-=============================
+=====
 corepkg_installer
-=============================
+=====
 Dependencies (Mainly used for DaVinci Resolve, a Video Editor):
 - glu (OpenGL Utility Library) https://archlinux.org/packages/extra/x86_64/glu/
 - gtk2 (GIMP Toolkit, Old Ver.) https://wiki.archlinux.org/title/GTK
