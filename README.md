@@ -39,7 +39,7 @@ Dependencies (Mainly used for DaVinci Resolve, a Video Editor):
 - qt5-multimedia 
 - libxcrypt-compat (Modern library for one-way hashing of passwords - legacy API functions) https://archlinux.org/packages/core/x86_64/libxcrypt-compat/
 - xmlsec (XML Security Library is a C library based on LibXML2) https://archlinux.org/packages/extra/x86_64/xmlsec/
-- java-runtime (Open-source implementation of Java Platform, Standard Edition) https://wiki.archlinux.org/title/Java
+- java-runtime https://wiki.archlinux.org/title/Java
 - python-numpy (Scientific tools for Python) https://archlinux.org/packages/extra/x86_64/python-numpy/
 - tbb (Thread Building Blocks) https://archive.org/details/archlinux_pkg_tbb | https://archlinuxarm.org/packages/aarch64/onetbb
 - apr-util (The Apache Portable Runtime Library) https://archlinux.org/packages/extra/x86_64/apr-util/
@@ -106,3 +106,12 @@ PC Apps:
 - freetube-bin (An open source desktop YouTube player built with privacy in mind.) https://aur.archlinux.org/packages/freetube
 - Brave Browser (Web browser that blocks ads and trackers by default (binary release)) https://aur.archlinux.org/packages/brave-bin
 - Davinci Resolve (Video Editor) https://wiki.archlinux.org/title/DaVinci_Resolve
+
+==== codingpkg_installer ====
+---------------------------
+- sqlite (Software Library that implements a self-contained SQL database engine, sorry Chkrta) https://wiki.archlinux.org/title/SQLite
+- .NET-sdk (FOSS software framework from Microsoft for C#, Visual Basic, and F#) https://wiki.archlinux.org/title/.NET
+- r (System for statistical computation and graphics) https://wiki.archlinux.org/title/R
+- rstudio (A powerful and productive integrated development environment (IDE) for R programming language) https://aur.archlinux.org/packages/rstudio-desktop
+- code (Code is a cross-platform text editor developed by Microsoft, built on the Electron framework) https://wiki.archlinux.org/title/Visual_Studio_Code
+- jre-openjdk https://wiki.archlinux.org/title/Java
