@@ -5,6 +5,14 @@ Sets up an on Startup Antimalware and Antirootkit scan alongside a script that u
 
 This is setup to my liking but also tries to provide choice to those on Arch-based distros.
 
+# Instructions
+run ./RUNME.sh in terminal while within the TmanzsArchToolkit directory.
+
+# OPTIONAL
+To install programming software:
+run ./packages/codingpkg_installer.sh in terminal while within the TmanzsArchToolkit directory.
+packages listed below.
+
 # Important!!!
 For Steam to work you need to enable multilib. to do this navigate to /etc/pacman.conf and uncomment it.
 
@@ -16,11 +24,6 @@ SCRIPTWHITELIST=/usr/bin/vendor_perl/GET
 
 The root_script.sh currently does not work. This was intended to be a script to make the initial setup process for installing the sudo package and setup of a user and password easier.
 Will eventually rewrite but if you need assistance setting up sudo I recommend this source: https://wiki.archlinux.org/title/Sudo
-
-# OPTIONAL
-To install programming software:
-run TmanzArchToolkit/packages/codingpkg_installer.sh
-packages listed below.
 
 # Installed Packages!
 
