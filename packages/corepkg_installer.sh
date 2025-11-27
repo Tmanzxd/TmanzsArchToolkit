@@ -17,13 +17,6 @@ sudo pacman -Sy gcc #install C++ Compiler
 sudo pacman -Sy openssh
 sudo pacman -Sy base-devel
 
-#Download the yay aur
-git clone "https://aur.archlinux.org/yay-git.git"
-cd yay-git
-makepkg -si
-cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
-mv ~/TmanzsArchToolkit/yay-git ~
-
 echo "<corepkgs_script> Downloading Web Browsers..."
 
 sudo pacman -Sy firefox
@@ -36,9 +29,6 @@ sudo pacman -Sy clamtk
 sudo pacman -Sy rkhunter
 #PC Utilities
 sudo pacman -Sy diskmonitor
-yay -S corestats
-yay -S coretime
-yay -S arttime-git
 sudo pacman -Sy feh
 sudo pacman -Sy vlc
 sudo pacman -Sy balena-etcher
@@ -56,8 +46,6 @@ sudo pacman -Sy audacity
 sudo pacman -Sy obs-studio
 sudo pacman -Sy filezilla
 sudo pacman -Sy discord
-yay -S freetube-bin #Ad-Free YouTube
 sudo pacman -Sy lutris #GOG.com 3rd-party client.
-yay -S davinci-resolve-free
 
 echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name} in the Terminal."

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Download yay aur manager
+git clone "https://aur.archlinux.org/yay-git.git"
+cd yay-git
+makepkg -si
+cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
+mv ~/TmanzsArchToolkit/yay-git ~
+
+#PC Utilities
+yay -S corestats
+yay -S coretime
+yay -S arttime-git
+
+#PC Apps
+yay -S freetube-bin #Ad-Free YouTube
+
+#Download DaVinci free video editor.
+git clone https://aur.archlinux.org/davinci-resolve.git
+cd davinci-resolve 
+makepkg -si
+cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
+mv ~/TmanzsArchToolkit/davinci-resolve ~
