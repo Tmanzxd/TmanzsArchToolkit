@@ -11,6 +11,7 @@ mv ~/TmanzsArchToolkit/yay-git ~
 yay -S corestats
 yay -S coretime
 yay -S arttime-git
+yay -S tkpacman
 
 #PC Apps
 yay -S freetube-bin #Ad-Free YouTube
