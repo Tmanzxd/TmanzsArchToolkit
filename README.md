@@ -64,7 +64,6 @@ Graphics Drivers [Choose based on what you got]:
 
 Web Browsers:
 - Firefox
-- Brave
 
 Antivirus Utilities:
 - clamav (Open source anti-virus toolkit for UNIX) https://wiki.archlinux.org/title/ClamAV
@@ -90,3 +89,20 @@ PC Apps:
 - filezilla (FTP, FTPS, and SFTP Client) https://archlinux.org/packages/extra/x86_64/filezilla/
 - discord (For those who live under a rock [its probs worth it tbh]) https://wiki.archlinux.org/title/Discord
 - lutris (video game preservation platform, can run Steam, epic, gog, dolphin emulator, etc...) https://lutris.net/ || https://archlinux.org/packages/extra/any/lutris/ || https://wiki.archlinux.org/title/Gaming
+
+==== aurs_script ====
+---------------------------
+Dependencies:
+- yay (Yet another yogurt. Pacman wrapper and AUR helper written in go.) https://aur.archlinux.org/packages/yay
+- libcprime (A library for bookmarking, saving recent activites, managing settings of C-Suite) https://aur.archlinux.org/packages/libcprime
+
+PC Utilities:
+- corestats (A system resource viewer from the C Suite) https://aur.archlinux.org/packages/corestats
+- coretime (A time related task manager from the C Suite) https://aur.archlinux.org/packages/coretime
+- arttime-git (arttime is a clock, timer, time manager and text-art viewer for the terminal (https://github.com/poetaman/arttime/wiki)) https://aur.archlinux.org/packages/arttime-git
+- tkpacman (A lightweight GUI for pacman built with Tcl/Tk) https://aur.archlinux.org/packages/tkpacman
+
+PC Apps:
+- freetube-bin (An open source desktop YouTube player built with privacy in mind.) https://aur.archlinux.org/packages/freetube
+- Brave Browser (Web browser that blocks ads and trackers by default (binary release)) https://aur.archlinux.org/packages/brave-bin
+- Davinci Resolve (Video Editor) https://wiki.archlinux.org/title/DaVinci_Resolve
