@@ -57,3 +57,36 @@ Code Management/Compilation:
 - gcc (C++ Compiler) https://wiki.archlinux.org/title/GNU_Compiler_Collection
 - openssh (Set of computer programs providing encrypted communication sessions over a computer network using the Secure Shell (SSH) protocol.)  https://wiki.archlinux.org/title/OpenSSH
 - base-devel (Basic tools to build Arch Linux packages) https://archlinux.org/packages/core/any/base-devel/
+
+Graphics Drivers [Choose based on what you got]:
+- nvidia
+- amd
+
+Web Browsers:
+- Firefox
+- Brave
+
+Antivirus Utilities:
+- clamav (Open source anti-virus toolkit for UNIX) https://wiki.archlinux.org/title/ClamAV
+- clamtk (Graphical User Interface Frontend for clamAV) https://archlinux.org/packages/extra/any/clamtk/
+- rkhunter (Security Monitoring tool for POSIX compliant systems, scans for rootkits and other vulnerabilities) https://wiki.archlinux.org/title/Rkhunter
+
+PC Utilities:
+- diskmonitor (KDE tools to monitor SMART devices and MDRaid health status) https://aur.archlinux.org/packages/diskmonitor
+- feh (Lightweight Image Vierwer) https://wiki.archlinux.org/title/Feh
+- vlc (Free Open Source Multimedia Player) https://wiki.archlinux.org/title/VLC_media_player
+- balena-etcher (Flash OS images to SD cards & USB drives, safely and easily) https://aur.archlinux.org/packages/balena-etcher
+- 7zip (File archiver for extremely high compression) https://archlinux.org/packages/extra/x86_64/7zip/
+- wine (Windows Compatibility Layer for UNIX systems) https://wiki.archlinux.org/title/Wine
+- qalculate-qt  (Cross-Platform Calculator) https://archlinux.org/packages/extra/x86_64/qalculate-gtk/
+
+PC Apps:
+- libreoffice-still (stable release of libreoffice, an alternative office suite to microsoft office) https://wiki.archlinux.org/title/LibreOffice
+- GIMP (Image Editing Program) https://wiki.archlinux.org/title/GIMP
+- Thunderbird (Open source email, news, and chat client) https://wiki.archlinux.org/title/Thunderbird
+- Steam (If you don't know what this is you're not a real Gamer) https://wiki.archlinux.org/title/Steam
+- Audacity (Audio Editing Program) https://wiki.archlinux.org/title/Audacity
+- obs-studio (Livestreaming/recoring program) https://wiki.archlinux.org/title/Open_Broadcaster_Software
+- filezilla (FTP, FTPS, and SFTP Client) https://archlinux.org/packages/extra/x86_64/filezilla/
+- discord (For those who live under a rock [its probs worth it tbh]) https://wiki.archlinux.org/title/Discord
+- lutris (video game preservation platform, can run Steam, epic, gog, dolphin emulator, etc...) https://lutris.net/ || https://archlinux.org/packages/extra/any/lutris/ || https://wiki.archlinux.org/title/Gaming
