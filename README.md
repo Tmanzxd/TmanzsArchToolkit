@@ -20,11 +20,11 @@ run TmanzArchToolkit/packages/codingpkg_installer.sh
 packages listed below.
 
 # Installed Packages!
----------------------------
+
 ==== corepkg_installer ====
 ---------------------------
 Dependencies (Mainly used for DaVinci Resolve, a Video Editor):
-- glu (OpenGL Utility Library) https://archlinux.org/packages/extra/x86_64/glu/
+ glu (OpenGL Utility Library) https://archlinux.org/packages/extra/x86_64/glu/
 - gtk2 (GIMP Toolkit, Old Ver.) https://wiki.archlinux.org/title/GTK
 - libpng12 (A collection of routines used to create PNG format graphics files) https://aur.archlinux.org/packages/libpng12
 - fuse2 (Interface for userspace programs to export a filesystem to the Linux kernel) https://archlinux.org/packages/extra/x86_64/fuse2/
@@ -44,3 +44,13 @@ Dependencies (Mainly used for DaVinci Resolve, a Video Editor):
 - libc++abi (Low level support for the LLVM C++ standard library) https://archlinux.org/packages/extra/x86_64/libc++abi/
 
 Text Editors:
+- vim https://wiki.archlinux.org/title/Vim
+- neovim https://wiki.archlinux.org/title/Neovim
+- nano (MOST NEWBIE FRIENDLY) https://wiki.archlinux.org/title/Nano
+- emacs https://wiki.archlinux.org/title/Emacs
+
+Code Management/Compilation:
+- git (Version Control System) https://wiki.archlinux.org/title/Git
+- gcc (C++ Compiler) https://wiki.archlinux.org/title/GNU_Compiler_Collection
+- openssh (Set of computer programs providing encrypted communication sessions over a computer network using the Secure Shell (SSH) protocol.)  https://wiki.archlinux.org/title/OpenSSH
+- base-devel (Basic tools to build Arch Linux packages) https://archlinux.org/packages/core/any/base-devel/
