@@ -38,8 +38,11 @@ sudo pacman -Sy gcc #install C++ Compiler
 sudo pacman -Sy openssh
 sudo pacman -Sy base-devel
 
-echo "<corepkgs_script> Downloading Web Browsers..."
+echo "<corepkgs_script> Downloading Graphics Drivers... [CHOOSE NVIDIA OR AMD]"
+sudo pacman pacman -Syu nvidia nvidia-utils nvidia-settings
+sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon xf86-video-amdgpu
 
+echo "<corepkgs_script> Downloading Web Browsers..."
 sudo pacman -Sy firefox
 
 echo "<corepkgs_script> Downloading Apps..."
