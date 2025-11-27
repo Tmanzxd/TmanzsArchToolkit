@@ -5,6 +5,27 @@ current_user=$(whoami)
 
 echo "<corepkgs_script> IF you do not want a package, HIT 'n' and Enter [READ CAREFULLY]."
 
+echo "<corepkgs_script> Downloading Dependencies..."
+sudo pacman -Sy glu
+sudo pacman -Sy gtk2
+sudo pacman -Sy libpng12 
+sudo pacman -Sy fuse2
+sudo pacman -Sy opencl-driver
+sudo pacman -Sy qtf-xllextras
+sudo pacman -Sy qt5-svg
+sudo pacman -Sy qt5-webengine
+sudo pacman -Sy qt5-websockets
+sudo pacman -Sy qt5-quickcontrols2
+sudo pacman -Sy qt5-multimedia
+sudo pacman -Sy libxcrypt-compat
+sudo pacman -Sy xmlsec
+sudo pacman -Sy java-runtime
+sudo pacman -Sy python-numpy
+sudo pacman -Sy tbb
+sudo pacman -Sy apr-util
+sudo pacman -Sy libc++
+sudo pacman -Sy libc++abi
+
 echo "<corepkgs_script> Downloading Text Editor Packages..."
 sudo pacman -Sy vim #install vim
 sudo pacman -Sy neovim #install neovim
