@@ -14,6 +14,7 @@ yay -S arttime-git
 
 #PC Apps
 yay -S freetube-bin #Ad-Free YouTube
+yay -S brave-bin # Brave Browser
 
 #Download DaVinci free video editor.
 git clone https://aur.archlinux.org/davinci-resolve.git

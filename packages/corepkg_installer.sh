@@ -20,7 +20,6 @@ sudo pacman -Sy base-devel
 echo "<corepkgs_script> Downloading Web Browsers..."
 
 sudo pacman -Sy firefox
-sudo yay -S brave-bin
 
 echo "<corepkgs_script> Downloading Apps..."
 #Antivirus Utilities
