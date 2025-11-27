@@ -14,6 +14,9 @@ SCRIPTWHITELIST=/usr/bin/fgrep
 SCRIPTWHITELIST=/usr/bin/ldd
 SCRIPTWHITELIST=/usr/bin/vendor_perl/GET
 
+The root_script.sh currently does not work. This was intended to be a script to make the initial setup process for installing the sudo package and setup of a user and password easier.
+Will eventually rewrite but if you need assistance setting up sudo I recommend this source: https://wiki.archlinux.org/title/Sudo
+
 # OPTIONAL
 To install programming software:
 run TmanzArchToolkit/packages/codingpkg_installer.sh
