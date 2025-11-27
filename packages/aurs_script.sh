@@ -8,11 +8,7 @@ cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
 mv ~/TmanzsArchToolkit/yay-git ~
 
 #Install dependencies
-git clone "https://aur.archlinux.org/libcprime.git"
-cd libcprime
-makepkg -si
-cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
-mv ~/TmanzsArchToolkit/libcprime ~
+yay -S libcprime
 
 #PC Utilities
 yay -S corestats
