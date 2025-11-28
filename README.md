@@ -14,6 +14,8 @@ run ./packages/codingpkg_installer.sh in terminal while within the TmanzsArchToo
 packages listed below.
 
 # Important!!!
+This will not work on immutable file systems (SteamOS, Bazzite, etc.)
+
 For Steam to work you need to enable multilib. to do this navigate to /etc/pacman.conf and uncomment it.
 
 For rkhunter to not give false positives you need to navigate to /etc/rkhunter.conf and add the following whitelists:
