@@ -3,7 +3,7 @@ Description=Tmanz custom startup script
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/startup_script.sh
+ExecStart=/usr/local/bin/startup.sh
 Type=simple
 User=root
 
