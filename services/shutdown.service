@@ -6,7 +6,7 @@ DefaultDependencies=no
 [Service]
 Type=oneshot
 ExecStart=/bin/true
-ExecStop=/usr/local/bin/shutdown_script.sh
+ExecStop=/usr/local/bin/shutdown.sh
 RemainAfterExit=yes
 
 [Install]
