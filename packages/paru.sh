@@ -1,20 +1,20 @@
 #!/bin/bash
 
 #Download yay aur manager
-git clone "https://aur.archlinux.org/yay-git.git"
-cd yay-git
+git clone "https://aur.archlinux.org/paru.git"
+cd paru
 makepkg -si
 cd ..
-mv yay-git ~
+mv paru ~
 
 #Install dependencies
-yay -S libcprime
+paru -S libcprime
 
 #PC Utilities
-yay -S corestats coretime arttime-git tkpacman
+paru -S corestats coretime arttime-git tkpacman
 
 #PC Apps
-yay -S freetube-bin brave-bin # Ad-Free YouTube & Brave Browser
+paru -S freetube-bin brave-bin # Ad-Free YouTube & Brave Browser
 
 #Download DaVinci free video editor.
 git clone https://aur.archlinux.org/davinci-resolve.git
