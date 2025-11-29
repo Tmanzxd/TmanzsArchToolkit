@@ -11,14 +11,10 @@ mv yay-git ~
 yay -S libcprime
 
 #PC Utilities
-yay -S corestats
-yay -S coretime
-yay -S arttime-git
-yay -S tkpacman
+yay -S corestats coretime arttime-git tkpacman
 
 #PC Apps
-yay -S freetube-bin #Ad-Free YouTube
-yay -S brave-bin # Brave Browser
+yay -S freetube-bin brave-bin # Ad-Free YouTube & Brave Browser
 
 #Download DaVinci free video editor.
 git clone https://aur.archlinux.org/davinci-resolve.git

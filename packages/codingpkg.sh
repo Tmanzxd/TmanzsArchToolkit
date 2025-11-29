@@ -1,14 +1,10 @@
 #!/bin/bash
 
 yay -S rstudio-desktop
-sudo pacman -Sy r
-sudo pacman -Sy sqlite
+sudo pacman -Sy r sqlite dotnet-sdk code jre-openjdk
 #sudo pacman -Sy nodejs npm 
 #Due to security reasons, commenting out nodejs and npm.
 #See the following link as to why.
 #about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/ 
 #sudo pacman -Sy unity-installer-arch
 # Deprecated Install Go here for Unity: https://wiki.archlinux.org/title/Unity3D
-sudo pacman -Sy dotnet-sdk
-sudo pacman -Sy code #Install visual studio code
-sudo pacman -Sy jre-openjdk #Install Java JREjdk
