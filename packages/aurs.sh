@@ -4,8 +4,8 @@
 git clone "https://aur.archlinux.org/yay-git.git"
 cd yay-git
 makepkg -si
-cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
-mv ~/TmanzsArchToolkit/yay-git ~
+cd ..
+mv yay-git ~
 
 #Install dependencies
 yay -S libcprime
@@ -24,5 +24,5 @@ yay -S brave-bin # Brave Browser
 git clone https://aur.archlinux.org/davinci-resolve.git
 cd davinci-resolve 
 makepkg -si
-cd $(find . -type d -name "TmanzsArchToolkit" -print -quit)
-mv ~/TmanzsArchToolkit/davinci-resolve ~
+cd ..
+mv davinci-resolve ~
