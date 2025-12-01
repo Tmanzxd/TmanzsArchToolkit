@@ -18,7 +18,7 @@ echo "<corepkgs_script> Downloading Code Management/Compiler Packages... [RECOMM
 sudo pacman -Sy git gcc openssh base-devel
 
 echo "<corepkgs_script> Downloading Graphics Drivers... [CHOOSE NVIDIA OR AMD]"
-sudo pacman -Syu nvidia nvidia-utils nvidia-settings
+sudo pacman -Syu nvidia nvidia-utils nvidia-settings # Only works with NV110 family (Maxwell) - NV190 family (Ada Lovelace)
 sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon xf86-video-amdgpu
 
 echo "<corepkgs_script> Downloading Web Browsers..."
