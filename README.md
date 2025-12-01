@@ -122,3 +122,9 @@ PC Apps:
 - rstudio (A powerful and productive integrated development environment (IDE) for R programming language) https://aur.archlinux.org/packages/rstudio-desktop
 - code (Code is a cross-platform text editor developed by Microsoft, built on the Electron framework) https://wiki.archlinux.org/title/Visual_Studio_Code
 - jre-openjdk https://wiki.archlinux.org/title/Java
+
+==== display_installer ====
+---------------------------
+- xfce4 (lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.) https://xfce.org/
+- lightdm (A cross-desktop display manager) https://wiki.archlinux.org/title/LightDM
+- (Not installed but the theme I plan on using for xfce4!) https://www.xfce-look.org/p/1016619
