@@ -28,7 +28,7 @@ echo "<corepkgs_script> Downloading Apps..."
 #Antivirus Utilities
 sudo pacman -Sy clamav clamtk rkhunter
 #PC Utilities
-sudo pacman -Sy diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper btrfs-assistant
+sudo pacman -Sy diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper btrfs-assistant cronie
 #install vlc compatability plugins
 sudo pacman -Sy vlc-plugin-ffmpeg vlc-plugin-mpeg2 vlc-plugin-x264 vlc-plugin-ass vlc-plugin-matroska vlc-plugin-dvd vlc-plugin-bluray vlc-plugin-srt vlc-plugin-soxr libdvdcss libbluray
 #PC Apps
