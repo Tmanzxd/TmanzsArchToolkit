@@ -87,6 +87,8 @@ PC Utilities:
 - 7zip (File archiver for extremely high compression) https://archlinux.org/packages/extra/x86_64/7zip/
 - wine (Windows Compatibility Layer for UNIX systems) https://wiki.archlinux.org/title/Wine
 - qalculate-qt  (Cross-Platform Calculator) https://archlinux.org/packages/extra/x86_64/qalculate-gtk/
+- snapper (Filesystem Snapshotter, can create and compare snapshots, revert between snapshots, and supports automatic snapshots timelines) https://wiki.archlinux.org/title/Snapper
+- btrfs-assistant (An application for managing BTRFS subvolumes and Snapper snapshots) https://archlinux.org/packages/extra/x86_64/btrfs-assistant/
 
 PC Apps:
 - libreoffice-still (stable release of libreoffice, an alternative office suite to microsoft office) https://wiki.archlinux.org/title/LibreOffice
