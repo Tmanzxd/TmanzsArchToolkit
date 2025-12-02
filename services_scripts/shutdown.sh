@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This will execute the following functions before PC Shutdown.
-# Update Arch Official Packages
+# Update Arch package database
 sudo pacman -Syu
-# Update Public Arch Packages
+# Update Public Arch package databases
 yay -Syu
