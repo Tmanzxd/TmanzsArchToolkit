@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Backup pacman database
-tar -cjf pacman_database.tar.bz2 /var/lib/pacman/local
+# tar -cjf pacman_database.tar.bz2 /var/lib/pacman/local
+# To restore
+# tar -xjvf pacman_database.tar.bz2
 
 # This will execute the following functions before PC Shutdown.
 # Update Arch package database
