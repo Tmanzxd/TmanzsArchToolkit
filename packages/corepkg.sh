@@ -5,6 +5,10 @@ current_user=$(whoami)
 
 echo "<corepkgs_script> IF you do not want a package, HIT 'n' and Enter [READ CAREFULLY]."
 
+echo "<corepkgs_script> Downloading Microcode Firmware... [CHOOSE AMD OR INTEL}"
+sudo pacman -Sy amd-ucode
+sudo pacman -Sy intel-ucode
+
 echo "<corepkgs_script> Downloading Dependencies..."
 sudo pacman -Sy glu gtk2 libpng12 fuse2 opencl-driver qtf-xllextras qt5-svg qt5-webengine qt5-websockets qt5-quickcontrols2 qt5-multimedia libxcrypt-compat xmlsec java-runtime python-numpy tbb apr-util libc++ libc++abi
 
