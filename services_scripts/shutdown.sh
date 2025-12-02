@@ -9,9 +9,9 @@
 # Update Arch package database
 sudo pacman -Syu
 # Update Public Arch package databases
-yay -Syu
+paru -Syu
 # Anakin Skywalker the Orphans
 pacman -Qdtq | pacman -Rns -
 pacman -Qqd | pacman -Rsu -
-yay -Qdtq | yay -Rns -
-yay -Qqd | yay -Rsu -
+paru -Qdtq | paru -Rns -
+paru -Qqd | paru -Rsu -
