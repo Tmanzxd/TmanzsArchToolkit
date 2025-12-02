@@ -13,3 +13,5 @@ yay -Syu
 # Anakin Skywalker the Orphans
 pacman -Qdtq | pacman -Rns -
 pacman -Qqd | pacman -Rsu -
+yay -Qdtq | yay -Rns -
+yay -Qqd | yay -Rsu -
