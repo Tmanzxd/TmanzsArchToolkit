@@ -92,6 +92,7 @@ PC Utilities:
 - snapper (Filesystem Snapshotter, can create and compare snapshots, revert between snapshots, and supports automatic snapshots timelines) https://wiki.archlinux.org/title/Snapper
 - btrfs-assistant (An application for managing BTRFS subvolumes and Snapper snapshots) https://archlinux.org/packages/extra/x86_64/btrfs-assistant/
 - cronie (he time-based job scheduler in Unix-like computer operating systems. cron enables users to schedule jobs (commands or shell scripts) to run periodically at certain times, dates or intervals.) https://wiki.archlinux.org/title/Cron
+- Bleachbit (BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.)  https://en.wikipedia.org/wiki/BleachBit
 
 PC Apps:
 - libreoffice-still (stable release of libreoffice, an alternative office suite to microsoft office) https://wiki.archlinux.org/title/LibreOffice
