@@ -35,7 +35,8 @@ Make sure you have your user setup before running display.sh to install Desktop 
 
 ==== corepkg_installer ====
 ---------------------------
-Dependencies (Mainly used for DaVinci Resolve, a Video Editor):
+Dependencies:
+- pacman-contrib (Contributed scripts and tools for pacman systems) https://archlinux.org/packages/extra/x86_64/pacman-contrib/
  glu (OpenGL Utility Library) https://archlinux.org/packages/extra/x86_64/glu/
 - gtk2 (GIMP Toolkit, Old Ver.) https://wiki.archlinux.org/title/GTK
 - libpng12 (A collection of routines used to create PNG format graphics files) https://aur.archlinux.org/packages/libpng12
