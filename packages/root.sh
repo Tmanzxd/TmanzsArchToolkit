@@ -8,7 +8,7 @@ if [[ "$current_user" != "root" ]]; then
 	exit
 fi
 echo "<root_script> We are root!"
-pacman -Su sudo #Install sudo
+pacman -S sudo #Install sudo
 
 echo "<root_script> would you like to edit visudo? (Y/N) [RECOMMENDED]"
 echo "<root_script> If you are new you should uncomment %wheel ALL on line 125."
@@ -33,18 +33,18 @@ case "$input1" in
 
 			case "$input2" in
 				"vim")
-					pacman -Su vim
+					pacman -S vim
 					EDITOR=vim visudo
 					;;
 				"neovim")
-					pacman -Su neovim
+					pacman -S neovim
 					EDITOR=neovim visudo
 				"emacs")
-					pacman -Su emacs
+					pacman -S emacs
 					EDITOR=emacs visudo
 					;;
 				"nano")
-					pacman -Su nano
+					pacman -S nano
 					EDITOR=nano visudo
 					;;
 
