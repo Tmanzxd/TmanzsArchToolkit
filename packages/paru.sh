@@ -8,13 +8,13 @@ cd ..
 mv paru ~
 
 #Install dependencies
-paru -Su libcprime
+paru -S libcprime
 
 #PC Utilities
-paru -Su corestats coretime arttime-git tkpacman
+paru -S corestats coretime arttime-git tkpacman
 
 #PC Apps
-paru -Su freetube-bin brave-bin # Ad-Free YouTube & Brave Browser
+paru -S freetube-bin brave-bin # Ad-Free YouTube & Brave Browser
 
 #Download DaVinci free video editor.
 git clone https://aur.archlinux.org/davinci-resolve.git
