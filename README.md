@@ -74,10 +74,11 @@ Graphics Drivers [Choose based on what you got]:
 Web Browsers:
 - Firefox
 
-Antivirus Utilities:
+Security Utilities:
 - clamav (Open source anti-virus toolkit for UNIX) https://wiki.archlinux.org/title/ClamAV
 - clamtk (Graphical User Interface Frontend for clamAV) https://archlinux.org/packages/extra/any/clamtk/
 - rkhunter (Security Monitoring tool for POSIX compliant systems, scans for rootkits and other vulnerabilities) https://wiki.archlinux.org/title/Rkhunter
+- - firewalld (Daemon and console interface for configuring network and firewall zones as well as setting up and configuring firewall rules.) https://firewalld.org/
 
 PC Utilities:
 - diskmonitor (KDE tools to monitor SMART devices and MDRaid health status) https://aur.archlinux.org/packages/diskmonitor
