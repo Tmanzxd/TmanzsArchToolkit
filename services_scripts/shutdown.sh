@@ -7,3 +7,4 @@ sudo pacman -Syu
 yay -Syu
 # Anakin Skywalker the Orphans
 pacman -Qdtq | pacman -Rns -
+pacman -Qqd | pacman -Rsu -
