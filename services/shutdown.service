@@ -8,6 +8,7 @@ Type=oneshot
 ExecStart=/bin/true
 ExecStop=/usr/local/bin/shutdown.sh
 RemainAfterExit=yes
+User=root
 
 [Install]
 WantedBy=multi-user.target
