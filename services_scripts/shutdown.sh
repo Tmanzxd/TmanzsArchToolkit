@@ -15,3 +15,5 @@ pacman -Qdtq | pacman -Rns -
 pacman -Qqd | pacman -Rsu -
 paru -Qdtq | paru -Rns -
 paru -Qqd | paru -Rsu -
+# Clear pacman cache for non-installed packages
+pacman -Sc
