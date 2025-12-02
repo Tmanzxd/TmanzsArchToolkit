@@ -32,7 +32,7 @@ echo "<corepkgs_script> Downloading Apps..."
 #Security Utilities
 sudo pacman -S clamav clamtk rkhunter firewalld
 #PC Utilities
-sudo pacman -S diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper btrfs-assistant cronie
+sudo pacman -S diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper btrfs-assistant cronie man-db
 #install vlc compatability plugins
 sudo pacman -S vlc-plugin-ffmpeg vlc-plugin-mpeg2 vlc-plugin-x264 vlc-plugin-ass vlc-plugin-matroska vlc-plugin-dvd vlc-plugin-bluray vlc-plugin-srt vlc-plugin-soxr libdvdcss libbluray
 #PC Apps
