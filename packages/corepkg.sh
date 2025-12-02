@@ -25,8 +25,8 @@ echo "<corepkgs_script> Downloading Web Browsers..."
 sudo pacman -Sy firefox
 
 echo "<corepkgs_script> Downloading Apps..."
-#Antivirus Utilities
-sudo pacman -Sy clamav clamtk rkhunter
+#Security Utilities
+sudo pacman -Sy clamav clamtk rkhunter firewalld
 #PC Utilities
 sudo pacman -Sy diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper btrfs-assistant cronie
 #install vlc compatability plugins
