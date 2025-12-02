@@ -10,7 +10,7 @@ sudo pacman -S amd-ucode
 sudo pacman -S intel-ucode
 
 echo "<corepkgs_script> Downloading Dependencies..."
-sudo pacman -S glu gtk2 libpng12 fuse2 opencl-driver qtf-xllextras qt5-svg qt5-webengine qt5-websockets qt5-quickcontrols2 qt5-multimedia libxcrypt-compat xmlsec java-runtime python-numpy tbb apr-util libc++ libc++abi
+sudo pacman -S pacman-contrib glu gtk2 libpng12 fuse2 opencl-driver qtf-xllextras qt5-svg qt5-webengine qt5-websockets qt5-quickcontrols2 qt5-multimedia libxcrypt-compat xmlsec java-runtime python-numpy tbb apr-util libc++ libc++abi
 
 echo "<corepkgs_script> Downloading Text Editor Packages..."
 sudo pacman -S vim #install vim
