@@ -2,6 +2,6 @@
 
 # This will execute the following functions before PC Shutdown.
 # Update Arch Official Packages
-sudo pacman -Syu
+sudo pacman -Sy
 # Update Public Arch Packages
-yay -Syu
+yay -Sy
