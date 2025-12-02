@@ -1,7 +1,7 @@
 #!/bin/bash
 
 paru -S rstudio-desktop
-sudo pacman -Sy r sqlite dotnet-sdk code jre-openjdk
+sudo pacman -S r sqlite dotnet-sdk code jre-openjdk
 #sudo pacman -Sy nodejs npm 
 #Due to security reasons, commenting out nodejs and npm.
 #See the following link as to why.
