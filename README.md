@@ -26,12 +26,11 @@ SCRIPTWHITELIST=/usr/bin/vendor_perl/GET
 
 When installing Paru, make sure you install Rust dependencies or else it will not work.
 
-The root_script.sh currently does not work. This was intended to be a script to make the initial setup process for installing the sudo package and setup of a user and password easier.
-Will eventually rewrite but if you need assistance setting up sudo I recommend this source: https://wiki.archlinux.org/title/Sudo
+root.sh works! Be sure to uncomment line 125 under visudo if you run it!
 
 Make sure you have your user setup before running display.sh to install Desktop Environment & Display Manager!
 
-# Installed Packages!
+# Installed Packages (Includes but not limited to)!
 
 ==== corepkg_installer ====
 ---------------------------
