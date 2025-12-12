@@ -15,10 +15,12 @@ echo "<root_script> If you are new you should uncomment %wheel ALL on line 125."
 
 
 #This is scuffed but it works.
-while [[ "$input1" != "y" ]] || [[ "$input1" != "Y" ]] || [[ "$input1" != "n" ]] || [[ "$input1" != "N" ]]; 
+while [[ true ]]; 
 do
 	read input1
-	if [[ "$input1" != "y" ]] || [[ "$input1" != "Y" ]] || [[ "$input1" != "n" ]] || [[ "$input1" != "N" ]]; then
+	if [[ "$input1" == "y" ]] || [[ "$input1" == "Y" ]] || [[ "$input1" == "n" ]] || [[ "$input1" == "N" ]]; then
+		break
+	else
 		echo "<root_script> Invalid Input. Try Again or CTRL-C to Quit."
 	fi
 done
@@ -35,17 +37,22 @@ case "$input1" in
 				"vim")
 					pacman -S vim
 					EDITOR=vim visudo
+					break
 					;;
 				"neovim")
 					pacman -S neovim
 					EDITOR=neovim visudo
+					break
+					;;
 				"emacs")
 					pacman -S emacs
 					EDITOR=emacs visudo
+					break
 					;;
 				"nano")
 					pacman -S nano
 					EDITOR=nano visudo
+					break
 					;;
 
 				*) #Default case for any other val
