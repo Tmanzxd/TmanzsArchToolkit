@@ -36,6 +36,6 @@ sudo pacman -S diskmonitor feh vlc balena-etcher p7zip wine qalculate-qt snapper
 #install vlc compatability plugins
 sudo pacman -S vlc-plugin-ffmpeg vlc-plugin-mpeg2 vlc-plugin-x264 vlc-plugin-ass vlc-plugin-matroska vlc-plugin-dvd vlc-plugin-bluray vlc-plugin-srt vlc-plugin-soxr libdvdcss libbluray
 #PC Apps
-sudo pacman -S libreoffice-still gimp thunderbird steam audacity obs-studio filezilla discord lutris #GOG.com 3rd-party client.
+sudo pacman -S libreoffice-still gimp thunderbird audacity obs-studio filezilla discord lutris #GOG.com 3rd-party client.
 
 echo "<corepkgs_script> If you wish to delete packages Do: sudo pacman -R {package_name} in the Terminal."
