@@ -98,7 +98,6 @@ PC Apps:
 - libreoffice-still (stable release of libreoffice, an alternative office suite to microsoft office) https://wiki.archlinux.org/title/LibreOffice
 - GIMP (Image Editing Program) https://wiki.archlinux.org/title/GIMP
 - Thunderbird (Open source email, news, and chat client) https://wiki.archlinux.org/title/Thunderbird
-- Steam (If you don't know what this is you're not a real Gamer) https://wiki.archlinux.org/title/Steam
 - Audacity (Audio Editing Program) https://wiki.archlinux.org/title/Audacity
 - obs-studio (Livestreaming/recoring program) https://wiki.archlinux.org/title/Open_Broadcaster_Software
 - filezilla (FTP, FTPS, and SFTP Client) https://archlinux.org/packages/extra/x86_64/filezilla/
